@@ -7,17 +7,18 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var AppComponent = /** @class */ (function () {
-    function AppComponent() {
+var WeatherComponent = /** @class */ (function () {
+    function WeatherComponent() {
     }
-    AppComponent = __decorate([
+    WeatherComponent = __decorate([
         core_1.Component({
-            selector: 'my-app',
-            template: "\n        <div class=\"container\">\n            <div class=\"col-xs-4\">\n                <weather-widget></weather-widget>\n            </div>\n        </div>\n    ",
-            styles: ["\n    .container {\n        padding-top: 5rem;\n    }\n    "]
+            moduleId: module.id,
+            selector: 'weather-widget',
+            templateUrl: 'weather.component.html',
+            styleUrls: ['weather.component.css']
         })
-    ], AppComponent);
-    return AppComponent;
+    ], WeatherComponent);
+    return WeatherComponent;
 }());
-exports.AppComponent = AppComponent;
-//# sourceMappingURL=app.component.js.map
+exports.WeatherComponent = WeatherComponent;
+//# sourceMappingURL=weather.component.js.map
