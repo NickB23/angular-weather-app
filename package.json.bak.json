@@ -1,0 +1,43 @@
+{
+    "name": "weather-widget",
+    "version": "1.0.0",
+    "description": "Nick's Angular Weather App",
+    "scripts": {
+        "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+        "lite": "lite-server",
+        "tsc": "tsc",
+        "tsc:w": "tsc -w"
+    },
+    "license": "UNLICENSED",
+    "repository": {
+        "type": "git",
+        "url": ""
+    },
+    "dependencies": {
+        "@angular/common": "*",
+        "@angular/compiler": "*",
+        "@angular/core": "*",
+        "@angular/forms": "*",
+        "@angular/http": "*",
+        "@angular/platform-browser": "*",
+        "@angular/platform-browser-dynamic": "*",
+        "@angular/router": "*",
+        "angular-in-memory-web-api": "*",
+        "bootstrap": "4.0.0-alpha.5",
+        "core-js": "*",
+        "jquery": "^3.2.1",
+        "popper.js": "^1.12.9",
+        "reflect-metadata": "*",
+        "rxjs": "*",
+        "systemjs": "*",
+        "tether": "^1.4.3",
+        "zone.js": "*"
+    },
+    "devDependencies": {
+        "@types/core-js": "*",
+        "@types/node": "*",
+        "concurrently": "*",
+        "lite-server": "*",
+        "typescript": "*"
+    }
+}
