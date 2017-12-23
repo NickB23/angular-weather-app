@@ -10,7 +10,7 @@ export class SpeedUnitPipe implements PipeTransform {
                 const miles = Number(speed * 1.6).toFixed(0);
                 return miles + "mph";
             default:
-               const = kilom Number(speed).toFixed(0);
+               const kilom = Number(speed).toFixed(0);
                 return kilom + "kph";
         }
     }
